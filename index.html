@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">JULIAN AHMAD</div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek Saya</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="photo">
+                    <img src="alt.png" alt="Foto Profil">
+                </div>
+                <div class="bio">
+                    <p>Saya adalah seorang pengembang web yang bersemangat dengan pengalaman dalam HTML, CSS, JavaScript, dan berbagai framework seperti React dan Node.js.</p>
+                    <p>Saya selalu berusaha belajar dan mengembangkan keterampilan saya untuk menciptakan solusi web yang inovatif.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <div class="skills-content">
+                <div class="skill">
+                    <label for="html">HTML</label>
+                    <div class="progress-bar">
+                        <div class="progress html"></div>
+                    </div>
+                    <span class="percentage html">95%</span> <!-- Menambahkan persentase -->
+                </div>
+                <div class="skill">
+                    <label for="css">CSS</label>
+                    <div class="progress-bar">
+                        <div class="progress css"></div>
+                    </div>
+                    <span class="percentage css">90%</span>
+                </div>
+                <div class="skill">
+                    <label for="javascript">JavaScript</label>
+                    <div class="progress-bar">
+                        <div class="progress javascript"></div>
+                    </div>
+                    <span class="percentage javascript">75%</span>
+                </div>
+                <div class="skill">
+                    <label for="react">React</label>
+                    <div class="progress-bar">
+                        <div class="progress react"></div>
+                    </div>
+                    <span class="percentage react">65%</span>
+                </div>
+                <div class="skill">
+                    <label for="node">Node.js</label>
+                    <div class="progress-bar">
+                        <div class="progress node"></div>
+                    </div>
+                    <span class="percentage node">70%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="projects">
+        <div class="container">
+            <h2 style="color: white;">Proyek Saya</h2>
+            <div class="project-gallery">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Proyek 1">
+                    <h3>Website E-Commerce</h3>
+                    <p>Website untuk toko online dengan fitur keranjang belanja dan pembayaran.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Proyek 2">
+                    <h3>Portfolio</h3>
+                    <p>Portofolio pribadi yang menampilkan proyek-proyek saya dan pengalaman saya.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Proyek 3">
+                    <h3>Blog</h3>
+                    <p>Website blog dengan fitur komentar dan sistem kategori artikel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak Person</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan Email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tulis Pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio Saya. Semua Hak Dilindungi.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" title="Facebook">F</a>
+                <a href="https://twitter.com" target="_blank" title="Twitter">T</a>
+                <a href="https://instagram.com" target="_blank" title="Instagram">I</a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">L</a>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>
